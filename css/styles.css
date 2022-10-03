@@ -52,6 +52,12 @@ header h4{
         column-gap: 10px;
 }
 
+header img {
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
 /* Estilos del main*/
 
 main h2 {   
@@ -82,13 +88,15 @@ main h4 {
         font-family: 'Caveat', cursive;
         font-size: 25px; 
 }
-main h4 section table{
-        
+main h4 section table fieldset{
+ 
     color: #eb4747 ; 
+    align-items: flex-start;
     text-align: center;
     font-family: 'Caveat', cursive;
-    font-size: 25px; 
-}       
+    font-size: 16x; 
+    height: 40px;
+    }       
 main h5 {
         color: #eb4747 ; 
         font-family: 'Caveat', cursive;
@@ -106,7 +114,13 @@ main h5 {
         margin: 1rem;
     }
 
-    
+   main h4 section table {
+    display: flex;
+    margin: 15px;
+    justify-content: left;
+    box-sizing: content-box;
+    -moz-box-align: right;
+} 
   
 /*Estilos del section de productos*/
  
@@ -138,6 +152,7 @@ section div img {
         transform: translateY(0);
     }
 }
+
 
 
 
